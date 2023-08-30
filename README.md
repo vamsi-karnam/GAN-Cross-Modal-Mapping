@@ -4,7 +4,8 @@ This repository contains code for training and evaluating a Pix2Pix GAN model to
 
 ### Methodology
 
-The model architecture follows the original Pix2Pix GAN formulation with a U-Net generator and PatchGAN discriminator. Two models are evaluated:
+The model architecture follows the original Pix2Pix GAN formulation with a U-Net generator and PatchGAN discriminator. The code was developed using Python 3.6 with TensorFlow 2.0 and OpenCV. 
+Two models are evaluated:
 
 1. Baseline model with default hyperparameters
 2. Modified model with increased batch size
@@ -34,3 +35,6 @@ Data sources:
 
 [MapAI dataset](https://huggingface.co/datasets/sjyhne/mapai_dataset)
 > S. Jyhne, M. Goodwin, P.-A. Andersen, I. Oveland, A. S. Nossum, K. Ormseth, M. Ørstavik and A. C. Flatman, “MapAI: Precision in Building Segmentation,” Nordic Machine Intelligence, vol. 2, no. 3, pp. 1-3, Sep. 2022.
+
+[Pix2Pix](https://www.tensorflow.org/tutorials/generative/pix2pix)
+> P. Isola, J. -Y. Zhu, T. Zhou and A. A. Efros, "Image-to-Image Translation with Conditional Adversarial Networks," 2017 IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Honolulu, HI, USA, 2017, pp. 5967-5976, doi: 10.1109/CVPR.2017.632.
