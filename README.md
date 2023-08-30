@@ -20,7 +20,7 @@ Key findings:
 3. Approach shows promise for cross-modal mapping tasks using continuous data.
 
 To download the checkpoints containing model weights, follow the links below.
-Model weights:
+
 - [shipwreck data model](https://mega.nz/folder/uVcgRbCL#n_pWXaeslc8o-iJARUq5Rw)
 - [map data model](https://mega.nz/folder/eB8RQQYZ#Lun6gqoyss876H07y80ZBw)
 
