@@ -1,5 +1,5 @@
-# GAN-Cross-Modal-Mapping
-A Generative Adversarial Network built to study pixel to pixel mapping by converting sensor scans to visual representations.
+# Cross-Modal Mapping with Pix2Pix GAN
+This repository contains code for training and evaluating a Pix2Pix GAN model to perform cross-modal mapping between sensor data and visual images. The model is trained on two real-time continuous datasets - an underwater shipwreck dataset containing Sonar scans and images, and an aerial dataset containing LiDAR maps and photographs.
 
 Model weights:
 - [shipwreck data model](https://mega.nz/folder/uVcgRbCL#n_pWXaeslc8o-iJARUq5Rw)
