@@ -9,6 +9,7 @@ Two models are evaluated:
 
 1. Baseline model with default hyperparameters of the original pix2pix model [3].
 2. Modified model with increased batch size (BATCH_SIZE = 4)
+
 Performance is compared using structural similarity (SSIM) between generated and real images. Qualitative inspection is also performed.
 
 
