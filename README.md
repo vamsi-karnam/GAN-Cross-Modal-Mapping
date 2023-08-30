@@ -15,9 +15,9 @@ Performance is compared using structural similarity (SSIM) between generated and
 
 Key findings:
 
-1. Increasing batch size improved training stability and reduced mode collapse
-2. Model with batch size of 4 performed better both quantitatively and qualitatively
-3. Approach shows promise for cross-modal mapping tasks using continuous data
+1. Slightly increasing the batch size improved training stability and reduced mode collapse.
+2. Model with batch size of 4 performed better both quantitatively and qualitatively.
+3. Approach shows promise for cross-modal mapping tasks using continuous data.
 
 To download the checkpoints containing model weights, follow the links below.
 Model weights:
