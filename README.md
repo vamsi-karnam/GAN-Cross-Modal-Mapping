@@ -2,7 +2,7 @@
 This repository contains code for training and evaluating a Pix2Pix GAN model to perform cross-modal mapping between sensor data and visual images. The model is trained on two real-time continuous datasets - an underwater shipwreck dataset containing Sonar scans and images, and an aerial dataset containing LiDAR maps and photographs.
 
 
-### Methodology
+## Methodology
 
 The model architecture follows the original Pix2Pix GAN formulation with a U-Net generator and PatchGAN discriminator. The code was developed using Python 3.6 with TensorFlow 2.0 and OpenCV. 
 Two models are evaluated:
@@ -13,7 +13,7 @@ Two models are evaluated:
 Performance is compared using structural similarity (SSIM) between generated and real images. Qualitative inspection is also performed.
 
 
-### Results
+## Results
 
 Key findings:
 
@@ -26,12 +26,14 @@ To download the checkpoints containing model weights, follow the links below.
 - [shipwreck data model](https://mega.nz/folder/uVcgRbCL#n_pWXaeslc8o-iJARUq5Rw)
 - [map data model](https://mega.nz/folder/eB8RQQYZ#Lun6gqoyss876H07y80ZBw)
 
+## Output
+
 A video was generated from both the original and augmented frame data, demonstrating a promising approach to generating missing data through cross-modal mapping using a pix2pix GAN, the link below redirects to the video.
 
 [Frames generation](https://vimeo.com/858667797)
 
 
-### References
+## References
 
 Data sources:
 
